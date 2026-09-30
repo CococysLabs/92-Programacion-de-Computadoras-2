@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+    <question type="truefalse">
+        <name><text>P1. Propósito de Function</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Una 'Function' (Función) en Visual Basic .NET siempre debe devolver un valor utilizando la instrucción 'Return' o asignando el valor al nombre de la función.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P2. Propósito de Sub</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Un 'Sub' (Procedimiento) se utiliza principalmente para realizar una tarea o acción, pero no puede devolver un valor al código que lo llamó.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P3. Parámetros por Defecto (ByVal)</text></name>
+        <questiontext format="html">
+            <text><![CDATA[En Visual Basic .NET, si no se especifica 'ByVal' o 'ByRef' al declarar un parámetro, el método de paso por defecto es 'ByVal' (por valor).]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P4. Modificación con ByRef</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Cuando un parámetro se pasa 'ByRef' (por referencia), el procedimiento o función puede modificar la variable original que se usó en la llamada.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P5. Salida de un Sub</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Es posible salir prematuramente de un procedimiento 'Sub' usando la instrucción 'Exit Sub'.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P6. Salida de una Function</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Para salir de una 'Function' antes de que termine su ejecución, se debe usar la instrucción 'Exit Function'.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P7. Tipo de Dato en Function</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Es obligatorio que la declaración de una 'Function' especifique un tipo de dato de retorno (ej. 'As Integer', 'As String').]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P8. Tipo de Dato en Sub</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Un 'Sub' no puede tener una cláusula 'As' (tipo de dato de retorno) al final de su declaración.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P9. Sobrecarga (Overloading)</text></name>
+        <questiontext format="html">
+            <text><![CDATA[La sobrecarga (Overloading) permite definir dos o más procedimientos con el mismo nombre, siempre y cuando sus listas de parámetros (firma) sean diferentes.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+    <question type="truefalse">
+        <name><text>P10. Parámetros Opcionales</text></name>
+        <questiontext format="html">
+            <text><![CDATA[Para declarar un parámetro opcional en VB.NET, se usa la palabra clave 'Optional' y se debe asignar un valor por defecto.]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text><![CDATA[true]]></text>
+        </answer>
+        <answer fraction="0">
+            <text><![CDATA[false]]></text>
+        </answer>
+    </question>
+
+</quiz>
